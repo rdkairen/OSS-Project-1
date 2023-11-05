@@ -79,7 +79,6 @@ while true; do
     elif [ "$c" -eq 8 ]; then
         read -p "Do you want to get the average 'rating' of movies rated by users with 'age' between 20 and 29 and 'occupation' as 'programmer'?(y/n) : " y
 	echo
-	if[ "$y" = "y" ]; then
 
 
     elif [ "$c" -eq 9 ]; then
