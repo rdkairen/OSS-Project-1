@@ -24,7 +24,7 @@ while true; do
         echo
 
     elif [ "$c" -eq 2 ]; then
-        read -p "Do you want to get the data of 'action' genre movies from '$1'?(y/n) : " y
+        read -p "Do you want to get the data of 'action' genre movies from 'u.item'?(y/n) : " y
         echo
         if [ "$y" = "y" ]; then
                 awk -F'|' '$7 == 1 {print $1, $2}' $1 | head -10
